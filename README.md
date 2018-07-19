@@ -4,6 +4,15 @@ A hobby Mac Changer program to change your mac address of any network interface,
 
 ## Basic Usage
 
+Run the file using python3 and add the flags.
+
+Example
+```
+python3 mac_changer.py -i eth0 -m 00:11:22:33:44:55
+```
+
+## Flags
+
 #### Interface
 Use the `-i` or `--interface` flag to specify the interface
 
